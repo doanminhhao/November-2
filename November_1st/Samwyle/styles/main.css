@@ -1,0 +1,333 @@
+
+h1 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 63px;
+    line-height: 63px;
+
+    color: #000000;
+}
+h2 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 38px;
+    color: #000000;
+    margin: 3px 0 17.5px 0;
+}
+h3 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    color: #444a4a;
+}
+h4 {
+    font-family: Cedarville Cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 53px;
+    color: #444a4a;
+}
+h5 {
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 36px;
+    text-align: justify;
+    letter-spacing: 0.001em;
+    color: #444a4a;
+    margin: 7.5px 0 7.5px 0;
+}
+h6 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 1440px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+img.logo {
+    margin-left: 120px;
+    width: 56px;
+    height: 40px;
+}
+.trademark {
+    font-family: Cedarville Cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 61px;
+    text-align: center;
+    color: #000000;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+h6.menu {
+    margin: 50px 45px 63px 45px;
+    text-align: justify;
+}
+button {
+    background: #2d635e;
+    border-radius: 5px;
+    color: white;
+}
+#btn-contacts-us {
+    margin: 36px 120px 50px 7px;
+    width: 135px;
+    height: 43px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+}
+#btn-order-here {
+    width: 235px;
+    height: 54px;
+    font-family: George Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+.pages {
+    position: absolute;
+    top: 335px;
+    left: 1235px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h3.follow-us {
+    width: 120px;
+    height: 28px;
+    padding: 20px;
+}
+#page-1,
+#page-2,
+#page-3 {
+    margin: 7px 0 7px 0;
+}
+
+.left-thumbnail {
+    margin-left: 120px;
+    margin-bottom: 347px;
+}
+.right-thumbnail {
+    position: absolute;
+    width: 569px;
+    height: 466px;
+    top: 129px;
+    left: 679px;
+    display: flex;
+    align-items: flex-end;
+}
+#square-bg {
+    width: 159px;
+    height: 157px;
+    background: #e3ebe7;
+    opacity: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rectangle-1 {
+    width: 410px;
+    height: 466px;
+    background: #e3ebe7;
+}
+img.coffee {
+    position: absolute;
+    width: 344px;
+    height: 373px;
+    left: 877px;
+    top: 269px;
+}
+#coffee {
+    margin: 329px 72px 0px 138px;
+    font-family: Cedarville Cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 137px;
+    color: #444a4a;
+    text-align: center;
+}
+.rotate {
+    transform: rotate(-90deg);
+}
+.descriptions {
+    margin-left: 120px;
+}
+div.description-1 {
+    position: absolute;
+    width: 380px;
+    height: 287px;
+    left: 120px;
+    top: 789px;
+
+    background: #fae9e0;
+}
+img.description-1 {
+    position: absolute;
+    top: 867px;
+    left: 148px;
+}
+h2.description-1 {
+    margin-left: 483px;
+}
+h5.description-1 {
+    width: 645px;
+    height: 106px;
+    margin-left: 483px;
+}
+.description-1-rotate {
+    position: absolute;
+    top: 765px;
+    left: 76px;
+    text-align: start;
+    margin: 0;
+    z-index: 1;
+}
+h2.description-2 {
+    margin-top: 157px;
+}
+h5.description-2 {
+    width: 615px;
+    height: 175px;
+    margin: 25px 0px 25px 0;
+}
+.btn-order-now {
+    width: 235px;
+    height: 54px;
+    font-family: George Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+div.description-2 {
+    position: absolute;
+    width: 410px;
+    height: 276px;
+    left: 838px;
+    top: 1269px;
+    background: #2b312e;
+}
+.description-2-rotate {
+    position: absolute;
+    left: 1180px;
+    top: 1270px;
+    text-align: start;
+    margin: 0;
+    z-index: 1;
+    color: #000000;
+    opacity: 0.75;
+}
+img.description-2 {
+    position: absolute;
+    left: 910px;
+    top: 1239px;
+}
+.orders {
+    position: absolute;
+    width: 1440px;
+    height: 550px;
+    left: 0px;
+    top: 1619px;
+    background: rgba(45, 99, 94, 0.05);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.items {
+    width: 340px;
+    height: 458px;
+    margin: 48px 15px 44px 15px;
+    background: #ffffff;
+    box-shadow: 0px 23px 34px rgba(35, 57, 55, 0.17);
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+}
+.btn-control-items {
+    background: none;
+    border: none;
+    margin: 0 25px 0 25px;
+}
+h5.description-item {
+    width: 223px;
+    height: 217px;
+    margin-left: 58px;
+    margin-bottom: 57px;
+}
+.footer {
+    position: absolute;
+    top: 2300px;
+    left: 120px;
+    height: 440px;
+}
+.text-address {
+    position: absolute;
+    top: 0;
+    left: 588px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+div.address {
+    margin-left: 32px;
+    width: 250px;
+}
+h4.address {
+    margin: 0;
+}
+p.address {
+    margin: 0 0 13px 0;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+h5.address {
+    margin: 8px 0 8px 0;
+}
+.footer-copyright {
+    position: absolute;
+    left: 300px;
+    bottom: 0;
+    width: 683px;
+    height: 39px;
+    text-align: center;
+}
